@@ -1,27 +1,31 @@
 # Anisble-SAP-HANA 💻
 
 ### 1. Información Básicos: 📌
-Este playbook configura el sistema Operativo (OS) SUSE SLES for SAP Business Applications 15.0 de acuerdo con las notas SAP aplicables para que se pueda instalar cualquier software SAP. Además Instala SAP HANA EXPRESS EDITION en un Bare metal con (OS) SUSE SLES.
+Este playbook configura el sistema Operativo (OS) SUSE SLES for SAP Business Applications 15.0 de acuerdo con las notas SAP aplicables para que se pueda instalar cualquier software SAP. Además Instala SAP HANA EXPRESS 2.0 en un Bare metal con (OS) SUSE SLES.
 ### 2. Pre-Requisitos 📋
-
+#### 2.1 Requisitos de software.
+Compruebe si su sistema tiene el software requerido para instalar y ejecutar con éxito SAP HANA 2.0, edición express
 #### A).Sistema operativo :
-* SUSE SLES
-#### B).CPU soportada:
+* SUSE Linux Enterprise Server para aplicaciones SAP, 12.1, 12.2, 12.3 (SPS 02 Rev 23 o superior)
+* Java Runtime Environment (JRE) 8 o superior : si planea utilizar el Administrador de descargas de edición expresa de SAP HANA 2.0 para Windows o Linux, necesita el JRE de 64 bits. Si planea usar el Administrador de descargas independiente de la plataforma, puede usar las versiones de 32 o 64 bits. Puede descargar SAP JVM (64 bits) desde https://tools.hana.ondemand.com/#cloud .
+#### 2.1 Requisitos de hardware.
+Compruebe si su sistema tiene el hardware requerido para instalar y ejecutar con éxito SAP HANA 2.0, edición express.
+##### A).CPU soportada:
 * Intel 64/AMD64
 * IBM POWER 8 (with PowerVM)
 * IBM POWER 9 (with PowerVM)
 
-#### C).Disco duro
+##### B).Disco duro
 Para instalar SAP HANA, necesita:
 * Una máquina certificada por SAP BusinessOne
-* Una máquina compatible que cumple con los requisitos de SAP HANA TDI (Tailored
-Integración de centros de datos). Es decir, necesita las siguientes cantidades de espacio libre en disco
+* Disco duro de 120 GB recomendado
 además del espacio necesario para el sistema operativo:
 * 52 GB de espacio libre en disco para la partición /usr/sap
-  Espacio para tres particiones para datos de SAP HANA: /hana/data (mismo tamaño que RAM),/hana/log (mismo tamaño que RAM hasta un         máximo de 512 GB) y /hana/ (del mismo tamaño que la RAM hasta un máximo de 1 TB).
-
-#### D).RAM 
-El sistema operativo SUSE Linux Enterprise Server requiere un mínimo de 1024 MB de RAM total o un mínimo de 512 MB de RAM por núcleo de CPU (elija el que sea mayor). Cualquier software SAP que instale requerirá RAM adicional. Para instalar SAP HANA, su máquina necesita un mínimo de 24 GB de RAM.
+##### C).RAM 
+El sistema operativo SUSE Linux Enterprise Server requiere un mínimo de 1024 MB de RAM total o un mínimo de 512 MB de RAM por núcleo de CPU (elija el que sea mayor). Cualquier software SAP que instale requerirá RAM adicional. Para instalar SAP HANA, su máquina necesita un mínimo de 16 GB mínimo (se recomiendan 24 GB).
+Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de espacio de intercambio a al menos 32 GB.
+##### D).Nucleos
+*	2 núcleos (se recomiendan 4)
 
 
 
