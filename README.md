@@ -1,9 +1,9 @@
-# Anisble-SAP-HANA
-# GUIA DE ...
+# Anisble-SAP-HANA 💻
 
 ### 1. Información Básicos: 📌
 Este playbook configura el sistema Operativo (OS) SUSE SLES for SAP Business Applications 15.0 de acuerdo con las notas SAP aplicables para que se pueda instalar cualquier software SAP. Además Instala SAP HANA EXPRESS EDITION en un Bare metal con (OS) SUSE SLES.
 ### 2. Pre-Requisitos 📋
+
 #### A).Sistema operativo :
 * SUSE SLES
 #### B).CPU soportada:
@@ -27,10 +27,21 @@ El sistema operativo SUSE Linux Enterprise Server requiere un mínimo de 1024 MB
 
 
 
-### 3. 🚀
+### 3.Descripción de Tareas Playbook 🚀
+
+#### 3.1 Crea directorio
+#### 3.2 Instalar grupo de paquetes sap-hana
+#### 3.3 Instalar una lista de paquetes
+#### 3.4 solución saptune aplicar HANA	
+#### 3.5 saptune daemon start
+#### 3.6 Gestor de descargas
+#### 3.7 Descargar instalador de sap hana
+#### 3.8 Descomprimir instalador
+#### 3.9 Procesar la plantilla de archivo de configuración de HANA"	
+#### 3.10 Instalar SAP HANA
 
 ##  Construido con 🛠️
-IBM Cloud, Visual Recognition: [VR](https://cloud.ibm.com/catalog/services/visual-recognition)
+IBM Cloud, Ansible.
 
 
 
