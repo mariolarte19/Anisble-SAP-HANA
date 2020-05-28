@@ -82,12 +82,12 @@ Se descarga HANA EXPRESS 2.0.
 Se decomprime el instaldor de HANA Express obteniendo hxe.tgz , setup_hxe.sh y HANA_EXPRESS_20.
 #### 3.9 Procesar la plantilla de archivo de configuración de HANA.
 Se establece la configuracion en el archivo  /home/saphana/HANA_EXPRESS_20/DATA_UNITS/HDB_SERVER_LINUX_X86_64/configfile.cfg con los siguientes parametros.
-sid=HXE
+`sid=HXE
 master_password=Passw0rd
 use_master_password=Passw0rd
 password=Passw0rd
 sapadm_password=Passw0rd
-system_user_password=Passw0rd
+system_user_password=Passw0rd`
 #### 3.10 Instalar SAP HANA.
 Instala HANA_EXPRESS_20.
 ##  Construido con 🛠️
