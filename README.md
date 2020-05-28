@@ -27,9 +27,7 @@ Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de
 
 
 
-### 3. Regístrese en SAP HANA edición express.🚀
-
-##### A).Complete el formulario de registro
+##### xxxx.Complete el formulario de registro
 Vaya a la página de [registro-Descargar](https://www.sap.com/cmp/td/sap-hana-express-edition.html) y haga clic en Registrarse para obtener su versión gratuita.
 ##### B).Elige un administrador de descargas.
 Haga clic en el administrador de descargas que coincida con su sistema: Linux DM o Windows DM.
@@ -37,7 +35,6 @@ Haga clic en el administrador de descargas que coincida con su sistema: Linux DM
 Guarde el archivo del administrador de descargas en su computadora portátil y ábralo. Si su sistema muestra una advertencia de seguridad cuando abre el archivo, ignore la advertencia.
 ### 3.Descripción de Tareas Playbook. 📋
 
-.
 #### 3.1 Instalar grupo de paquetes sap-hana.
 En esta tarea se instala paquetes tales como: 
 * sysstat para recopilar datos sar.
@@ -96,10 +93,10 @@ IBM Cloud, Ansible.
 
 ## Wiki 📖
 Para más información [Watson-Visual Recognition](https://www.ibm.com/co-es/cloud/watson-visual-recognition)
-
+https://documentation.suse.com/sles-sap/15-SP1/html/SLES4SAP-guide/cha-s4s-tune.html
+https://documentation.suse.com/sles-sap/15-SP1/pdf/SLES4SAP-quick_color_en.pdf
 
 ## Autores ✒️
 Team IBM Cloud
 
-https://documentation.suse.com/sles-sap/15-SP1/html/SLES4SAP-guide/cha-s4s-tune.html
-https://documentation.suse.com/sles-sap/15-SP1/pdf/SLES4SAP-quick_color_en.pdf
+
