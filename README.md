@@ -46,7 +46,25 @@ En esta tarea se instala paquetes tales como:
 #### 3.3 Instalar una lista de paquetes adicionales.
 * java,libatomic1,nfs-utils,tcsh,psmisc y glibc
 
-#### 3.4 solución saptune aplicar HANA	
+#### 3.4 solución saptune aplicar HANA
+Utilizando saptune, se puede ajustar el sistema para SAP NetWeaver, SAP HANA / SAP Business Objects y aplicaciones SAP S / 4HANA.
+En esta tarea se configurar saptune con una solución preconfigurada la cual es HANA .
+
+ * 2382421: Optimizar Configuración de red a nivel HANA y OS.
+            Version 36 from 16.01.2020
+ * 2534844: Bloqueo del Indexserver durante el inicio debido a un segmento de memoria compartida insuficiente.
+            Version 12 from 15.11.2017
+ * 2578899: SUSE LINUX Enterprise Server 15: Notas de instalación.
+            Version 20 from 29.11.2019
+ * 2684254: SAP HANA DB: Configuración recomendada del sistema operativo para SLES 15 / SLES para aplicaciones SAP.
+            Version 5 from 03.01.2019
+ * 941735: Sistema de gestión de memoria SAP para sistemas Linux de 64 bits.
+           Version 11 from 04.05.2018
+ * 1980196:Configuración del parámetro del núcleo de Linux /proc/sys/vm/max_map_count en SAP HANA Systems.
+ * 1771258: Linux: Límites de recursos de usuario y sistema.
+            Version 5 from 18.06.2018
+
+
 #### 3.5 saptune daemon start
 #### 3.6 Gestor de descargas
 #### 3.7 Descargar instalador de sap hana
