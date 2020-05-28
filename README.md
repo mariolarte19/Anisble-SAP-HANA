@@ -36,10 +36,16 @@ Haga clic en el administrador de descargas que coincida con su sistema: Linux DM
 Guarde el archivo del administrador de descargas en su computadora portátil y ábralo. Si su sistema muestra una advertencia de seguridad cuando abre el archivo, ignore la advertencia.
 ### 3.Descripción de Tareas Playbook 🚀
 
-#### 3.1 Crea directorio
-#### 3.2 Instalar grupo de paquetes sap-hana
-util-linux, util-linux-systemdy uuidd
-#### 3.3 Instalar una lista de paquetes
+#### 3.1 Crea directorio.
+Se crea un directorio en /home/saphana , con el fin de alojar el instalador de SAP HANA EXPRESS 2.0.
+#### 3.2 Instalar grupo de paquetes sap-hana.
+En esta tarea se instala paquetes tales como: 
+* sysstat para recopilar datos sar.
+* tuned para el ajuste del sistema.
+* uuidd proporciona identificadores únicos universales, esenciales para crear claves de base de datos.
+#### 3.3 Instalar una lista de paquetes adicionales.
+* java,libatomic1,nfs-utils,tcsh,psmisc y glibc
+
 #### 3.4 solución saptune aplicar HANA	
 #### 3.5 saptune daemon start
 #### 3.6 Gestor de descargas
