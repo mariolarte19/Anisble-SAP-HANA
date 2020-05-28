@@ -45,10 +45,10 @@ En esta tarea se instala paquetes tales como:
 * uuidd proporciona identificadores únicos universales, esenciales para crear claves de base de datos.
 #### 3.3 Instalar una lista de paquetes adicionales.
 * java,libatomic1,nfs-utils,tcsh,psmisc y glibc
-
+( Habilitar saptune para sintonizar una aplicación SAP)
 #### 3.4 solución saptune aplicar HANA
 Utilizando saptune, se puede ajustar el sistema para SAP NetWeaver, SAP HANA / SAP Business Objects y aplicaciones SAP S / 4HANA.
-En esta tarea se configurar saptune con una solución preconfigurada la cual es HANA .
+En esta tarea se configurar saptune con una solución preconfigurada la cual es HANA.Dicha solucion aplica las siguientes notas. 
 
  * 2382421: Optimizar Configuración de red a nivel HANA y OS.
             Version 36 from 16.01.2020
@@ -63,9 +63,11 @@ En esta tarea se configurar saptune con una solución preconfigurada la cual es 
  * 1980196:Configuración del parámetro del núcleo de Linux /proc/sys/vm/max_map_count en SAP HANA Systems.
  * 1771258: Linux: Límites de recursos de usuario y sistema.
             Version 5 from 18.06.2018
-
+  
+https://documentation.suse.com/sles-sap/15-SP1/html/SLES4SAP-guide/cha-s4s-tune.html
 
 #### 3.5 saptune daemon start
+En esta tarea se inicia saptune y se habilita en el arranque.
 #### 3.6 Gestor de descargas
 #### 3.7 Descargar instalador de sap hana
 #### 3.8 Descomprimir instalador
