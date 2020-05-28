@@ -17,10 +17,7 @@ Compruebe si su sistema tiene el hardware requerido para instalar y ejecutar con
 
 ##### B).Disco duro
 Para instalar SAP HANA, necesita:
-* Una máquina certificada por SAP BusinessOne
 * Disco duro de 120 GB recomendado
-además del espacio necesario para el sistema operativo:
-* 52 GB de espacio libre en disco para la partición /usr/sap
 ##### C).RAM 
 El sistema operativo SUSE Linux Enterprise Server requiere un mínimo de 1024 MB de RAM total o un mínimo de 512 MB de RAM por núcleo de CPU (elija el que sea mayor). Cualquier software SAP que instale requerirá RAM adicional. Para instalar SAP HANA, su máquina necesita un mínimo de 16 GB mínimo (se recomiendan 24 GB).
 Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de espacio de intercambio a al menos 32 GB.
@@ -29,12 +26,19 @@ Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de
 
 
 
+### 3. Regístrese en SAP HANA edición express.
 
-
+##### A).Complete el formulario de registro
+Vaya a la página de [registro-Descargar](https://www.sap.com/cmp/td/sap-hana-express-edition.html) y haga clic en Registrarse para obtener su versión gratuita.
+##### B).Elige un administrador de descargas.
+Haga clic en el administrador de descargas que coincida con su sistema: Linux DM o Windows DM.
+##### C).Elige un administrador de descargas.
+Guarde el archivo del administrador de descargas en su computadora portátil y ábralo. Si su sistema muestra una advertencia de seguridad cuando abre el archivo, ignore la advertencia.
 ### 3.Descripción de Tareas Playbook 🚀
 
 #### 3.1 Crea directorio
 #### 3.2 Instalar grupo de paquetes sap-hana
+util-linux, util-linux-systemdy uuidd
 #### 3.3 Instalar una lista de paquetes
 #### 3.4 solución saptune aplicar HANA	
 #### 3.5 saptune daemon start
