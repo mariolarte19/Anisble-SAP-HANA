@@ -27,7 +27,7 @@ Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de
 
 
 
-##### xxxx.Complete el formulario de registro
+### xxxx.Complete el formulario de registro
 Vaya a la página de [registro-Descargar](https://www.sap.com/cmp/td/sap-hana-express-edition.html) y haga clic en Registrarse para obtener su versión gratuita.
 ##### B).Elige un administrador de descargas.
 Haga clic en el administrador de descargas que coincida con su sistema: Linux DM o Windows DM.
