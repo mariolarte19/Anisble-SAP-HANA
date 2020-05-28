@@ -27,23 +27,23 @@ Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de
 
 
 
-### xxxx.Complete el formulario de registro
+### 3.Complete el formulario de registro
 Vaya a la página de [registro-Descargar](https://www.sap.com/cmp/td/sap-hana-express-edition.html) y haga clic en Registrarse para obtener su versión gratuita.
 ##### B).Elige un administrador de descargas.
 Haga clic en el administrador de descargas que coincida con su sistema: Linux DM o Windows DM.
 ##### C).Elige un administrador de descargas.
 Guarde el archivo del administrador de descargas en su computadora portátil y ábralo. Si su sistema muestra una advertencia de seguridad cuando abre el archivo, ignore la advertencia.
-### 3.Descripción de Tareas Playbook. 📋
+### 4.Descripción de Tareas Playbook. 📋
 
-#### 3.1 Instalar grupo de paquetes sap-hana.
+#### 4.1 Instalar grupo de paquetes sap-hana.
 En esta tarea se instala paquetes tales como: 
 * sysstat para recopilar datos sar.
 * tuned para el ajuste del sistema.
 * uuidd proporciona identificadores únicos universales, esenciales para crear claves de base de datos.
-#### 3.2 Instalar una lista de paquetes adicionales.
+#### 4.2 Instalar una lista de paquetes adicionales.
 * java,libatomic1,nfs-utils,tcsh,psmisc y glibc
 ( Habilitar saptune para sintonizar una aplicación SAP)
-#### 3.3 solución saptune aplicar HANA.
+#### 4.3 solución saptune aplicar HANA.
 Utilizando saptune, se puede ajustar el sistema para SAP NetWeaver, SAP HANA / SAP Business Objects y aplicaciones SAP S / 4HANA.
 En esta tarea se configurar saptune con una solución preconfigurada la cual es HANA.Dicha solucion aplica las siguientes notas. 
 
@@ -63,21 +63,21 @@ En esta tarea se configurar saptune con una solución preconfigurada la cual es 
   
 
 
-#### 3.4 saptune daemon start.
+#### 4.4 saptune daemon start.
 En esta tarea se inicia saptune y se habilita en el arranque.
-#### 3.5 Crear directorio.
+#### 4.5 Crear directorio.
 Se crea un directorio en /home/saphana , con el fin de alojar el instalador de SAP HANA EXPRESS 2.0.
-#### 3.6 Gestor de descargas.
+#### 4.6 Gestor de descargas.
 En esta tarea se hacen varios procesos como:
 * Eligir como directorio de trabajo /home/saphana.
 * Direccionarse al gestor de descargas.
 * Descargar el instalador independiente de la plataforma (HXEDownloadManager.jar).
 
-#### 3.7 Descargar instalador de sap hana.
+#### 4.7 Descargar instalador de sap hana.
 Se descarga HANA EXPRESS 2.0.
-#### 3.8 Descomprimir instalador.
+#### 4.8 Descomprimir instalador.
 Se decomprime el instaldor de HANA Express obteniendo hxe.tgz , setup_hxe.sh y HANA_EXPRESS_20.
-#### 3.9 Procesar la plantilla de archivo de configuración de HANA.
+#### 4.9 Procesar la plantilla de archivo de configuración de HANA.
 Se establece la configuracion en el archivo  /home/saphana/HANA_EXPRESS_20/DATA_UNITS/HDB_SERVER_LINUX_X86_64/configfile.cfg con los siguientes parametros.
 `sid=HXE
 master_password=Passw0rd
@@ -85,8 +85,12 @@ use_master_password=Passw0rd
 password=Passw0rd
 sapadm_password=Passw0rd
 system_user_password=Passw0rd`
-#### 3.10 Instalar SAP HANA.
+#### 4.10 Instalar SAP HANA.
 Instala HANA_EXPRESS_20. 😃✔️
+
+#### 5. Aplicar Playbook.
+
+
 
 ##  Construido con 🛠️
 IBM Cloud, Ansible.
@@ -95,6 +99,9 @@ IBM Cloud, Ansible.
 Para más información [Watson-Visual Recognition](https://www.ibm.com/co-es/cloud/watson-visual-recognition)
 https://documentation.suse.com/sles-sap/15-SP1/html/SLES4SAP-guide/cha-s4s-tune.html
 https://documentation.suse.com/sles-sap/15-SP1/pdf/SLES4SAP-quick_color_en.pdf
+https://people.redhat.com/mkoch/training/pc2019/labguide/#_register_for_download_hana_express
+https://blogs.sap.com/2019/06/25/sapconf-versus-saptune-in-more-detail/
+https://help.sap.com/doc/eb75509ab0fd1014a2c6ba9b6d252832/2.0.04/en-US/SAP_HANA_Administration_Guide_en.pdf
 
 ## Autores ✒️
 Team IBM Cloud
