@@ -79,7 +79,7 @@ En esta tarea se hacen varios procesos como:
 #### 3.7 Descargar instalador de sap hana.
 Se descarga HANA EXPRESS 2.0.
 #### 3.8 Descomprimir instalador.
-Se decomprime el instaldor de unpack HANA Express obteniendo hxe.tgz , setup_hxe.sh y HANA_EXPRESS_20.
+Se decomprime el instaldor de HANA Express obteniendo hxe.tgz , setup_hxe.sh y HANA_EXPRESS_20.
 #### 3.9 Procesar la plantilla de archivo de configuración de HANA.
 Se establece la configuracion en el archivo  /home/saphana/HANA_EXPRESS_20/DATA_UNITS/HDB_SERVER_LINUX_X86_64/configfile.cfg con los siguientes parametros.
 sid=HXE
