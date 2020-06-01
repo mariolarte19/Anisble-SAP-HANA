@@ -1,4 +1,4 @@
-- hosts: 169.48.1XX.XXX
+- hosts: <IP-of-bare-metal>
   become: yes
 
   tasks:
