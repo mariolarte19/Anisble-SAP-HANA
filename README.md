@@ -103,7 +103,14 @@ ansible_connection=ssh
 ansible_user=rXXX 
 ansible_password=XXXX
 </pre></code>
-#### B).:
+#### B).Modificar la variable hosts en el archivo sh_install.yml .
+<pre><code>
+- hosts: 169.XX.XXX.XXX
+  become: yes ......
+</pre></code>
+#### B).Aplicar playbook.
+Desde la consola de comandos nos dirigimos a la carpeta donde esta el playbook sh_install.yml y ejecutamos el siguiente comando ´ansible-playbook sh_install.yml´ una vez termidado configura el sistema Operativo (OS) SUSE SLES for SAP Business Applications 15.0 e instala SAP HANA EXPRESS.😃✔️
+
 ##  Construido con 🛠️
 IBM Cloud, Ansible.
 
