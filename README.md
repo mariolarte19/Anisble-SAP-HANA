@@ -27,6 +27,9 @@ Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de
 #### 2.3 Requisitos desde donde se va aplicar el playbook.
 * Instalar [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 
+## Arquitectura
+![arquitectura](https://github.com/emeloibmco/Skytap-DevOps-Terraform/blob/master/arquitectura%20skytap.png)
+
 ### 3.Complete el formulario de registro
 Vaya a la página de [registro-Descargar](https://www.sap.com/cmp/td/sap-hana-express-edition.html) y haga clic en Registrarse para obtener su versión gratuita.
 ##### B).Elige un administrador de descargas.
@@ -78,18 +81,29 @@ Se descarga HANA EXPRESS 2.0.
 Se decomprime el instaldor de HANA Express obteniendo hxe.tgz , setup_hxe.sh y HANA_EXPRESS_20.
 #### 4.9 Procesar la plantilla de archivo de configuración de HANA.
 Se establece la configuracion en el archivo  /home/saphana/HANA_EXPRESS_20/DATA_UNITS/HDB_SERVER_LINUX_X86_64/configfile.cfg con los siguientes parametros.
-`sid=HXE
+
+<pre><code>
+sid=HXE
 master_password=Passw0rd
 use_master_password=Passw0rd
 password=Passw0rd
 sapadm_password=Passw0rd
-system_user_password=Passw0rd`
+system_user_password=Passw0rd
+</pre></code>
+
 #### 4.10 Instalar SAP HANA.
 Instala HANA_EXPRESS_20. 😃✔️
 
 #### 5. Aplicar Playbook.
-#### A).Modificar hosts :
- Ejemplo :169.48.XXX.XXX ansible_connection=ssh ansible_user=root ansible_password=XXXX
+#### A).Modificar el archivo hosts:
+Ejemplo:
+<pre><code>
+169.48.XXX.XXX 
+ansible_connection=ssh 
+ansible_user=rXXX 
+ansible_password=XXXX
+</pre></code>
+#### B).:
 ##  Construido con 🛠️
 IBM Cloud, Ansible.
 
