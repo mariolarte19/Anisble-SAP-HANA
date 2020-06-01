@@ -8,7 +8,7 @@ Este playbook configura el sistema Operativo (OS) SUSE SLES for SAP Business App
 Compruebe si el sistema tiene el software requerido para instalar y ejecutar con éxito SAP HANA 2.0, edición express
 #### A).Sistema operativo :
 * SUSE Linux Enterprise Server para aplicaciones SAP, 12.1, 12.2, 12.3 (SPS 02 Rev 23 o superior)
-* Java Runtime Environment (JRE) 8 o superior : si planea utilizar el Administrador de descargas de edición expresa de SAP HANA 2.0 para Windows o Linux, necesita el JRE de 64 bits. Si planea usar el Administrador de descargas independiente de la plataforma, puede usar las versiones de 32 o 64 bits. Puede descargar SAP JVM (64 bits) desde https://tools.hana.ondemand.com/#cloud .
+* Java Runtime Environment (JRE) 8 o superior : si planea utilizar el Administrador de descargas de edición expresa de SAP HANA 2.0 para Windows o Linux, necesita el JRE de 64 bits. Si planea usar el Administrador de descargas independiente de la plataforma, puede usar las versiones de 32 o 64 bits. Puede descargar SAP JVM (64 bits) desde [tools-hana](https://tools.hana.ondemand.com/#cloud) .
 #### 2.2 Requisitos de hardware de maquina donde se va instalar SAP HANA.
 Compruebe si el sistema tiene el hardware requerido para instalar y ejecutar con éxito SAP HANA 2.0, edición express.
 #### A).CPU soportada:
