@@ -4,14 +4,14 @@
 Este playbook configura el sistema Operativo (OS) SUSE SLES for SAP Business Applications 15.0 de acuerdo con las notas SAP aplicables para que se pueda instalar cualquier software SAP. Además Instala SAP HANA EXPRESS 2.0 en un Bare metal con (OS) SUSE SLES.
 ### 2. Pre-Requisitos 📋
 
-#### 2.1 Requisitos de software.
+#### 2.1 Requisitos de software de maquina donde se va instalar SAP HANA.
 Compruebe si el sistema tiene el software requerido para instalar y ejecutar con éxito SAP HANA 2.0, edición express
 #### A).Sistema operativo :
 * SUSE Linux Enterprise Server para aplicaciones SAP, 12.1, 12.2, 12.3 (SPS 02 Rev 23 o superior)
 * Java Runtime Environment (JRE) 8 o superior : si planea utilizar el Administrador de descargas de edición expresa de SAP HANA 2.0 para Windows o Linux, necesita el JRE de 64 bits. Si planea usar el Administrador de descargas independiente de la plataforma, puede usar las versiones de 32 o 64 bits. Puede descargar SAP JVM (64 bits) desde https://tools.hana.ondemand.com/#cloud .
-#### 2.1 Requisitos de hardware.
+#### 2.2 Requisitos de hardware de maquina donde se va instalar SAP HANA.
 Compruebe si el sistema tiene el hardware requerido para instalar y ejecutar con éxito SAP HANA 2.0, edición express.
-##### A).CPU soportada:
+#### A).CPU soportada:
 * Intel 64/AMD64
 * IBM POWER 8 (with PowerVM)
 * IBM POWER 9 (with PowerVM)
@@ -24,9 +24,8 @@ El sistema operativo SUSE Linux Enterprise Server requiere un mínimo de 1024 MB
 Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de espacio de intercambio a al menos 32 GB.
 ##### D).Nucleos
 * 2 núcleos (se recomiendan 4)
-
-
-
+#### 2.1 Requisitos desde donde se va aplicar el playbook.
+* Instalar [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 ### 3.Complete el formulario de registro
 Vaya a la página de [registro-Descargar](https://www.sap.com/cmp/td/sap-hana-express-edition.html) y haga clic en Registrarse para obtener su versión gratuita.
 ##### B).Elige un administrador de descargas.
@@ -62,7 +61,6 @@ En esta tarea se configurar saptune con una solución preconfigurada la cual es 
             Version 5 from 18.06.2018
   
 
-
 #### 4.4 saptune daemon start.
 En esta tarea se inicia saptune y se habilita en el arranque.
 #### 4.5 Crear directorio.
@@ -89,7 +87,6 @@ system_user_password=Passw0rd`
 Instala HANA_EXPRESS_20. 😃✔️
 
 #### 5. Aplicar Playbook.
-
 
 
 ##  Construido con 🛠️
