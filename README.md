@@ -88,8 +88,8 @@ system_user_password=Passw0rd`
 Instala HANA_EXPRESS_20. 😃✔️
 
 #### 5. Aplicar Playbook.
-
-
+#### A).Modificar hosts :
+ Ejemplo :169.48.XXX.XXX ansible_connection=ssh ansible_user=root ansible_password=XXXX
 ##  Construido con 🛠️
 IBM Cloud, Ansible.
 
