@@ -46,7 +46,7 @@ En esta tarea se instala paquetes tales como:
 #### 4.2 Instalar una lista de paquetes adicionales.
 * java,libatomic1,nfs-utils,tcsh,psmisc y glibc
 ( Habilitar saptune para sintonizar una aplicación SAP)
-#### 4.3 solución saptune aplicar HANA.
+#### 4.3 Solución saptune aplicar HANA.
 Utilizando saptune, se puede ajustar el sistema para SAP NetWeaver, SAP HANA / SAP Business Objects y aplicaciones SAP S / 4HANA.
 En esta tarea se configurar saptune con una solución preconfigurada la cual es HANA.Dicha solucion aplica las siguientes notas. 
 
@@ -65,7 +65,7 @@ En esta tarea se configurar saptune con una solución preconfigurada la cual es 
             Version 5 from 18.06.2018
   
 
-#### 4.4 saptune daemon start.
+#### 4.4 Saptune daemon start.
 En esta tarea se inicia saptune y se habilita en el arranque.
 #### 4.5 Crear directorio.
 Se crea un directorio en /home/saphana , con el fin de alojar el instalador de SAP HANA EXPRESS 2.0.
