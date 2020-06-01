@@ -24,8 +24,9 @@ El sistema operativo SUSE Linux Enterprise Server requiere un mínimo de 1024 MB
 Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de espacio de intercambio a al menos 32 GB.
 ##### D).Nucleos
 * 2 núcleos (se recomiendan 4)
-#### 2.1 Requisitos desde donde se va aplicar el playbook.
+#### 2.3 Requisitos desde donde se va aplicar el playbook.
 * Instalar [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
+
 ### 3.Complete el formulario de registro
 Vaya a la página de [registro-Descargar](https://www.sap.com/cmp/td/sap-hana-express-edition.html) y haga clic en Registrarse para obtener su versión gratuita.
 ##### B).Elige un administrador de descargas.
