@@ -28,7 +28,7 @@ Nota: Si está instalando en un sistema con 16 GB de RAM, aumente la cantidad de
 * Instalar [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 
 ## Arquitectura
-![arquitectura](https://github.com/emeloibmco/Skytap-DevOps-Terraform/blob/master/arquitectura%20SAPHANA.png)
+![arquitectura](https://github.com/mariolarte19/Anisble-SAP-HANA/blob/master/SAPHANA.png)
 
 ### 3.Complete el formulario de registro
 Vaya a la página de [registro-Descargar](https://www.sap.com/cmp/td/sap-hana-express-edition.html) y haga clic en Registrarse para obtener su versión gratuita.
