@@ -115,17 +115,17 @@ Podemos verificar que SAP HANA quedo instalado exitosamente iniciando la base de
 * `su - <SID>adm`
 * `HDB start`
 * `HDB stop`
-Para mas informacion sobre gestión del sistema SAP HANA después de la instalación [aqui](https://help.sap.com/viewer/2c1988d620e04368aa4103bf26f17727/2.0.00/en-US/cbdb1298bb5710148fd6e6fb71038ba2.html)
+
+Para mas informacion sobre gestión del sistema SAP HANA después de la instalación [aqui](https://help.sap.com/viewer/2c1988d620e04368aa4103bf26f17727/2.0.00/en-US/cbdb1298bb5710148fd6e6fb71038ba2.html) .
 ##  Construido con 🛠️
 IBM Cloud, Ansible.
 
 ## Wiki 📖
-Para más información [Watson-Visual Recognition](https://www.ibm.com/co-es/cloud/watson-visual-recognition)
-https://documentation.suse.com/sles-sap/15-SP1/html/SLES4SAP-guide/cha-s4s-tune.html
-https://documentation.suse.com/sles-sap/15-SP1/pdf/SLES4SAP-quick_color_en.pdf
-https://people.redhat.com/mkoch/training/pc2019/labguide/#_register_for_download_hana_express
-https://blogs.sap.com/2019/06/25/sapconf-versus-saptune-in-more-detail/
-https://help.sap.com/doc/eb75509ab0fd1014a2c6ba9b6d252832/2.0.04/en-US/SAP_HANA_Administration_Guide_en.pdf
+Para más información 
+[SAP HANA tune SLES](https://documentation.suse.com/sles-sap/15-SP1/html/SLES4SAP-guide/cha-s4s-tune.html)
+[SLES4 SAP]https://documentation.suse.com/sles-sap/15-SP1/pdf/SLES4SAP-quick_color_en.pdf
+[SAP tune]https://blogs.sap.com/2019/06/25/sapconf-versus-saptune-in-more-detail/
+[SAP HANA guia de administracion](https://help.sap.com/doc/eb75509ab0fd1014a2c6ba9b6d252832/2.0.04/en-US/SAP_HANA_Administration_Guide_en.pdf)
 
 ## Autores ✒️
 Team IBM Cloud
