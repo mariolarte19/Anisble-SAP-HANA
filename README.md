@@ -109,8 +109,13 @@ ansible_password=XXXX
   become: yes ......
 </pre></code>
 #### B).Aplicar playbook.
-Desde la consola de comandos nos dirigimos a la carpeta donde esta el playbook sh_install.yml y ejecutamos el siguiente comando ´ansible-playbook sh_install.yml´ una vez termidado configura el sistema Operativo (OS) SUSE SLES for SAP Business Applications 15.0 e instala SAP HANA EXPRESS.😃✔️
-
+Desde la consola de comandos nos dirigimos a la carpeta donde esta el playbook sh_install.yml y ejecutamos el siguiente comando `mnsible-playbook sh_install.yml` una vez terminado configura el sistema Operativo (OS) SUSE SLES for SAP Business Applications 15.0 e instala SAP HANA EXPRESS.😃✔️
+#### C). Verificacion.
+Podemos verificar que SAP HANA quedo instalado exitosamente iniciando la base de datos con los siguientes comandos:
+* `su - <SID>adm`
+* `HDB start`
+* `HDB stop`
+Para mas informacion sobre gestión del sistema SAP HANA después de la instalación [aqui](https://help.sap.com/viewer/2c1988d620e04368aa4103bf26f17727/2.0.00/en-US/cbdb1298bb5710148fd6e6fb71038ba2.html)
 ##  Construido con 🛠️
 IBM Cloud, Ansible.
 
