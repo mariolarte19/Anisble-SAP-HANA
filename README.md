@@ -1,4 +1,4 @@
-# Anisble-SAP-HANA 💻
+# Ansible-SAP-HANA 💻
 
 ### 1. Información Básicos: 📌
 Este playbook configura el sistema Operativo (OS) SUSE SLES for SAP Business Applications 15.0 de acuerdo con las notas SAP aplicables para que se pueda instalar cualquier software SAP. Además Instala SAP HANA EXPRESS 2.0 en un Bare metal con (OS) SUSE SLES.
